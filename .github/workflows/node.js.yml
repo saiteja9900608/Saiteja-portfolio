@@ -12,13 +12,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x]
+        node-version: [18.x]  # Use only stable one for now
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
@@ -26,9 +26,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build project
+    - name: Build the app
       run: npm run build
-
-    # Optional: Add test script if you have one
-    # - name: Run tests
-    #   run: npm test

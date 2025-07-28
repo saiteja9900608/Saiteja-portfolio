@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x]  # Use only stable one for now
+        node-version: [18.x]
 
     steps:
     - name: Checkout repository
@@ -28,3 +28,9 @@ jobs:
 
     - name: Build the app
       run: npm run build
+
+    - name: Upload production-ready build
+      uses: actions/upload-artifact@v4
+      with:
+        name: production-build
+        path: dist

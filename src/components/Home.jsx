@@ -1,5 +1,5 @@
 import React from 'react';
-import saitejapp from '../assets/saitejapp.jpg';
+import profile from '../assets/saitejapp.jpg';
 import { motion } from 'framer-motion';
 
 const Home = () => {

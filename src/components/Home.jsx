@@ -1,5 +1,5 @@
 import React from 'react';
-import saipp from '../assets/saipp.jpg';
+import saitejapp from '../assets/saipp.jpg';
 import { motion } from 'framer-motion';
 
 const Home = () => {

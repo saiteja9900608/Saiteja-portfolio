@@ -1,5 +1,5 @@
 import React from 'react';
-import saipp from './assets/saipp.jpg';
+import saitejapp from './assets/saitejapp.jpg';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Projects from './components/Projects';

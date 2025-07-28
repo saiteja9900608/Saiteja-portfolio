@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.jpg';
+import saipp from '../assets/saipp.jpg';
 import { motion } from 'framer-motion';
 
 const Home = () => {

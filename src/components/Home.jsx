@@ -24,12 +24,12 @@ const Home = () => {
       </motion.h1>
 
       <motion.p
-        className="mt-2 text-lg"
+        className="mt-2 text-lg text-blue-900 font-medium"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
       >
-        Software Engineer | DevOps Enthusiast | Cloud Engineer
+        Aspiring Software Engineer  | DevOps Enthusiast
       </motion.p>
 
       <div className="mt-4 space-x-4">
@@ -44,11 +44,10 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
       >
-        I am a passionate software engineer focused on building innovative and scalable solutions.
-        With hands-on experience in full-stack development, DevOps workflows, and cloud platforms,
-        I thrive on turning complex problems into elegant user-centric applications.
-        I'm enthusiastic about contributing to high-impact projects and growing within collaborative,
-        forward-thinking teams.
+        I'm a passionate Computer Science graduate exploring opportunities in Software Development, Cloud Engineering, and DevOps.
+        With strong academic foundations and hands-on project experience, I enjoy building efficient systems, automating workflows,
+        and solving real-world problems. I'm eager to contribute to impactful teams where I can grow as a professional and apply modern
+        engineering practices from day one.
       </motion.div>
 
       {/* 🎓 Education */}
